@@ -1,0 +1,3 @@
+En HTML Existen dos tipos de Etiquetas:
+1.-LAS ETIQUETAS QUE CONTIENEN FRAGMENTOS DE TEXTO [Los textos de estos dan significado o contexto a esos FRAGMENTOS]
+2.-LAS ETIQUETAS QUE CONTIENEN OTRAS ETIQUETAS [Agrupan informacion variada]

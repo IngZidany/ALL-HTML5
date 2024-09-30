@@ -1,0 +1,39 @@
+<!--Oni chan -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <!--Script Oni chan cuando cambias de pestaña en navegador -->
+    <script>
+        // Guardar el título original de la página
+        let tituloOriginal = document.title;
+
+        document.addEventListener('visibilitychange', function() {
+            let audio = document.getElementById('audio');
+
+            if (document.hidden) {
+                // Cuando el usuario se va de la pestaña, cambiar el título y reproducir el audio
+                document.title = "¡No te vayas!";
+                audio.play(); // Reproducir el audio
+            } else {
+                // Cuando el usuario regresa a la pestaña, detener el audio y restaurar el título original
+                document.title = tituloOriginal;
+                audio.pause(); // Pausar el audio
+                audio.currentTime = 0; // Reiniciar el audio
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Bienvenido a mi Portafolio</h1>
+    <p>Este es el contenido de mi página principal.</p>
+
+    <!-- Audio oculto que se reproducirá cuando el usuario se vaya de la pestaña -->
+    <audio id="audio" style="display:none;">
+        <source src="Onii-chan_Onii-chan_sound_effect_[_YouConvert.net_].mp3" type="audio/mp3">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+</body>
+</html>

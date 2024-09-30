@@ -1,0 +1,69 @@
+<!DOCTYPE html><!--Especificacion de el tipo de doc => html-->
+<html lang="es"><!--Definir el lenguaje en que será leido-->
+<!--Etiqueta contenedora de otras etiquetas head-->
+<head>
+    <!--Pre-Carga de metadatos y enlaces-->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="description" content="">
+    <!--Enlaces-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Atributo Img </title>
+</head>
+<!--Etiqueta de cuerpo body-->
+<body>
+    <p>Resultado de uso de la etiqueta img</p><hr>
+    <h4>Para ello:</h4>
+    <p>Abrimos la etiqueta img con el atributo src para la URL  y alt para 
+        Descripcion de la imagen <br>Ademas usamos la el Atributo de Etiqueta 'title'
+        para Aclarar el contexto de la imagen al poner el puntero por 2s.
+    </p><hr>
+    <p>Atributos de la img para el CSS:
+        <ul>width: indica el ancho de la imagen </ul>
+        <ul>height:indica el alto de la imagen </ul>
+    </p>
+    <br>
+    <!--Uso de la Etiqueta <img>  con sus atributos obligatorios-->
+    <img src="https://lenguajehtml.com/assets/logo.png" alt="Logo de HTML5" title="Imagen de logo de html5"><hr>
+    <!--Uso de img con sus Atributos Secundarios width y height para estilisar el size de la img como si fuese el css-->
+    <p>
+        <h4>Resultado de Uso de Etiqueta img con Atributos Secundarios  width y height: </h4><br>
+        Cabe recalcar que se puede usar % o px como unidad de medida para el tamaño de img.
+        <ul>width : 10%</ul>
+        <ul>height: 10%</ul><br>
+        Resultado:
+    </p>
+    <!--En esta caso usamos los atributos secundarios como si fuera un css y estilisamos el img-->
+    <img src="https://lenguajehtml.com/assets/logo.png"
+     alt="Logo de HTML5" width="10%" height="10%" title="logo de html5 mini"/>
+    <hr>
+    <p><h3>Carga de imagenes</h3>priorizar img en carga general de la pagina web</p>
+    <ol>Atributo de tipo Description   
+        <hr>    
+        <li>loading         :indica si el navegador debe descargar la imgen inmediatamente o posponer la descarga.</li>
+        <li>decoding        :indica como y cuando debe procesar el navegador la imagen para mostrarlas.</li>
+        <li>fetchpriority   :indica la prioridad que va a tener la descarga de imagen .</li>
+    </ol>
+    <!--Uso del Atributo srcset de img-->
+    <P>RESULTADO DE USO DE srcset : </P>
+    <img src="media/img/gato.png" alt="gato"
+     srcset="gato.png 400w, imagen_900w.jpg 900w, imagen_1200w.jpg 1200w">
+    <hr>
+   
+
+    <!--La etiqueta picture no es soportada en este caso -->
+    <!--<div>
+        <picture>
+            <source srcset="Diagram.avif">
+            <source srcset="Diagram.webp">
+            <img src="media/img/Diagram.png" alt="Diagrama ">
+          </picture>
+    </div> --> 
+    <h3>Etiqueta video </h3>
+    <video width="560" height="315" controls>
+        <source src="https://www.youtube.com/watch?v=SWNaC628sd4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video de YouTube.
+      </video>
+    <hr>
+    </body>
+</html>

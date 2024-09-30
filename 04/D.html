@@ -1,0 +1,118 @@
+<!DOCTYPE html><!--Especificacion del tipo de doc => html-->
+<html lang="es"><!--Determina que la pagina sea leida en español-->
+
+<!--Etiqueta head de precarga-->
+<head>
+    <!--etiquetass de head que se precarganrán -->
+    <!--Meta charset content-->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <!--Etiqueta de enlace link rel href-->
+    <link rel="stylesheet" href="style.css">
+    <!--Etiqueta title for my web-->
+    <title>It's my titlee </title><!--El titulo será vicible -->
+</head>
+
+<!--Etiqueta de Cuerpo-->
+<body>
+    <p>USO DE LA SEGUNDA FORMA DE (ETIQUETAS DE AGRUPACION)</p>
+    <div clas="container"><!--damos clase al div para una identificacion-->
+        <p>hola, este es mi primer parrafo</p><!--Etiqueta de parrafo-->
+        <p>y esto es, un segundo parrafo</p>
+    </div>
+    <!--Contenido principal a mostrar en la pagina web-->
+    <div class="main-conatiner">
+        <!--Uso de Etiqueta main -->
+        <main>Hola mundo, este es mi contenedor principal con main  
+            <div>
+                <hr><!--para la separacion de grupos de textos-->
+                <p>Etiquetas de HTML de AGRUPACION</p><!--p = para el uso de parafo-->
+                <h3>Uso de hr</h3><!--Uso de h3 para el titulo --> <hr>
+                <p>Estas son las siguientes etiquetas de agrupacion</p>
+                <!--Uso li dentro de un ol para desarollar una lista numerada -->
+                <ol>
+                    <li>div : etiqueta de agrupacion contenedora</li> <br><!--Separacion sin linea a diferencia de hr.-->
+                    <li>p  : etiqueta de agrupacion de texto (parrafo)</li>
+                    <li>main : etiqueta de agrupacion de contenido principal de la pagina</li>
+                    <li>hr : etiqueta separadora de contenido agrupado y separa tematica del texto</li>
+                    <li>ol : etiqueta crea una lista numerada en orden</li>
+                    <li>ul : etiqueta crea una lista donde el orden no importa y no numerada</li>
+                    <li>li : Contiene uno de los items de la lista numerada o no numerada</li>
+                    <li>pre : Establece un texto preformateado</li>
+                    <li>blockquote  : Agrupa informacion y caracteristicas de una cita</li>
+                    <li>dl : crea una lista de definiciones</li>
+                    <li>dt : Establece el termino de una definicion</li>
+                    <li>dd : Establece la desvripcion de un termino de una definicion</li>
+                    <li>figure : Agrupa un elemento visual en una figura o ilustracion </li>
+                    <li>figcaption : crea una leyenda a una figura o ilustracion para aclaracion de la figure</li>               
+                </ol>
+                <br>
+                <p>Resultado de uso de la etiqueta li dentro de un ul: </p>
+                <!--Uso de li dentro de un ul para el desarrollo de una lista no ordenada y no numerada-->
+                <ul>
+                    <li>primer item</li>
+                    <li>segundo item</li>
+                    <li>tercer Item</li>
+                </ul>
+            </div>
+            <hr>
+            <!--Establece un formato predefinido para un texto -->
+            <!--Uso de lorem para el llenado de texto rapido-->
+            <pre>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. 
+                Quos ipsa, enim ratione sint, tempora 
+                sed quaerat, odit expedita mollitia magni 
+                fugit alias quod vero modi deserunt voluptas!
+                Accusamus, deserunt accusantium.</pre>
+        </main>
+    </div>
+    <hr>
+    <h3>uso de dl, dt , dd : </h3>
+    <!--Uso de dl , dt y dd  para una agrupacion de definiciones-->
+    <dl><!--Agrupacion de definiciones-->
+        <dt>White Rose</dt>
+        <dd>
+            En español es : Rosa Blanca 
+        </dd>
+        <dd> La rosa  de Guadalupe </dd>
+    </dl>
+    <hr><!--SAlto de linea -->
+        Resultado de uso de etiqueta main
+    <hr>
+    <!--EXAMPLE DE USO DE <main> -->
+    <main>
+        <p>Contenido principal de la web</p>
+    </main>
+    <aside><!--Uso de aside para separacion de contenido-->
+        <p>informacion del menu de la pagina</p>
+    </aside>
+    <br>
+    <!--<p>Uso de el Atributo hidden en un main</p>-->
+        <!--<main>
+          <h1>Página principal</h1>
+        <main>
+        <main hidden>
+          <h1>Servicios</h1>
+        </main>
+        <main hidden>
+          <h1>Sobre mi...</h1>
+        </main>-->
+        <hr>
+    <div type="title"><!--Esto uso de class en caso de ser tu titulo de contenido y uso de css-->
+        <h1>Zidany.dev</h1>
+        <h2>Tu amor preferido</h2>
+        <p>Sigueme en <a href="EtiquetasAgrupacion.txt">Sobre este modulo</a> encontraras informacion importante</p>
+        <br>
+        <p>En otro orden de cosas..</p>
+    </div>
+    <hr>
+        Resultado de Uso de Figure y figcaption.
+    <hr>
+    <!--Uso de Etiqueta de Agrupacion Multimedia Figure-->
+    <figure><!--Dentro de figure aun podemos poner mas imagenes es por ello llamado agrupacion-->
+        <img src="https://lenguajehtml.com/assets/logo.png" alt="Logotipo de HTML5">
+        <!--Uso de etiqueta figpaction para aclaracion de definicion de el figure-->
+        <figcaption>Logotipo oficial del lenguaje Hipertext de marcado,  HTML5.</figcaption><!--Se agrega un texto para la definicion de la img, logo de html-->
+      </figure>
+</body>    
+</html>

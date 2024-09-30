@@ -1,0 +1,3 @@
+Los recursos externos se relacionan a nustro docuemento html
+y con estas etiquetas de recursos externos hacemos referencia 
+ala conexion entre archivo externo y nuestro doc html.

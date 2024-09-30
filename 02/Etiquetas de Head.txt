@@ -1,0 +1,4 @@
+las etiquetas head se refire a Etiquetas que van antes del body
+para poder leerse antes de la carga o dibujo de la pagina web.
+head nos permite almacenar etiquetas dentro de estas , mayormente etiquetas
+de metadatos o links

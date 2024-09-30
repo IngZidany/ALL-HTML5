@@ -1,0 +1,27 @@
+<!--Titulo que pide que no te vallas-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <script>
+        // Guardar el título original de la página
+        let tituloOriginal = document.title;
+
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) {
+                // Cuando el usuario se va de la pestaña
+                document.title = "¡Oni chan!";
+            } else {
+                // Cuando el usuario vuelve a la pestaña
+                document.title = tituloOriginal;
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Bienvenido a mi Portafolio</h1>
+    </p></main><p>Este es el contenido de mi página principal.</p>
+</body>
+</html>
