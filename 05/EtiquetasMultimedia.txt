@@ -1,3 +1,3 @@
 En html podemos usar Etiquetas multimedia como img video audio
 tambien subtitulos, así como los formatos relacionados con este tipo 
-de contenido multimedia
+de contenido multimedia.
